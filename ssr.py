@@ -6,9 +6,9 @@ import uuid
 import csv
 
 from fastapi import APIRouter, Depends, File, UploadFile, Header, HTTPException
-from .db import get_db
-from .apikeys import verify_api_key, create_api_key, delete_api_key
-from .settings import SSR_EQUITY_ADMIN_TOKEN, MAX_UPLOAD_BYTES
+from db import get_db
+from apikeys import verify_api_key, create_api_key, delete_api_key
+from settings import SSR_EQUITY_ADMIN_TOKEN, MAX_UPLOAD_BYTES
 
 router = APIRouter()
 

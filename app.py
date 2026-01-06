@@ -1,8 +1,8 @@
 from __future__ import annotations
 #ssr-api/app.py
 from fastapi import FastAPI
-from .db import init_db_pool, close_db_pool
-from .ssr import router as ssr_router
+from db import init_db_pool, close_db_pool
+from ssr import router as ssr_router
 
 app = FastAPI(title="SSR Equity API")
 

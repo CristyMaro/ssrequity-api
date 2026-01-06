@@ -2,7 +2,7 @@ from __future__ import annotations
 #ssr-api/db.py
 import asyncpg
 from fastapi import HTTPException
-from .settings import SSR_DB_DSN
+from settings import SSR_DB_DSN
 
 _pool: asyncpg.Pool | None = None
 
