@@ -1,0 +1,5 @@
+branch-defaults:
+  default:
+    environment: Ssr-api-dev2
+global:
+  profile: null
